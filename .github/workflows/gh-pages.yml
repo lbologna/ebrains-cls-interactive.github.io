@@ -28,8 +28,8 @@ jobs:
 
       - name: Build for CLS
         run: |
-          BASE_URL="/ebrains-sim-cl-dev/wizard" \
-          CALLBACK_URL="/ebrains-sim-cl-dev/html/online-use-cases.html" \
+          BASE_URL="/ebrains-cls-interactive.github.io/wizard" \
+          CALLBACK_URL="/ebrains-cls-interactive.github.io/html/online-use-cases.html" \
           npm run build
           cp public/service-worker.js public/build
 
